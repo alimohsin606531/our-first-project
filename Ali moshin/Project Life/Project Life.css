@@ -1,0 +1,15 @@
+.background_styles {
+  background-color: purple;
+  color: yellow;
+}
+.list_style {
+  border: 10px red dotted;
+  font: xxx-large bold;
+}
+.navbar {
+  display: flex;
+  column-gap: 20px;
+  border: 1px red solid;
+  list-style-type: none;
+  flex-direction: column;
+}

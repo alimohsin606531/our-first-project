@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>form and input </title>
+</head>
+
+<body>
+    <!-- <form action="backend.php"> this is for backend means, which place we store our backend file  -->
+    <form action="backend.php">
+        <!-- (Name)<input type="number"> this is for understsnd of input   -->
+        <!-- <div> this is for devision tag ,some line is inline element and some is block element (input is element)  </div> -->
+
+        <!-- <label for="id name"> output command name </label> is use for if you click in textarea of output line  -->
+        <div>
+            <label for="name">Name </label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <!-- Date <input type="date" name="this person date(id=34)"> -->
+        <!-- type input: select what you want -->
+        <!-- <div>this is use for inline element to complete line</div>
+        input:checkbox
+        input:id 
+        input:email 
+         ...
+         ...
+        -->
+        <div>
+            <label for="date"> Date of borth</label>
+            <input type="date" name="my date" id="date">
+        </div>
+        <br>
+        <div>
+            Email <input type="email" name="my email">
+        </div>
+        <br>
+        <div>
+            bounes<input type="number" name="my bouns">
+        </div>
+
+        <br>
+        <!-- some different input  -->
+        <div>
+            sallery<input type="number" name="my sallery" id="">
+        </div>
+        <br>
+        <!-- some different input  -->
+        Are you eligible ? <input type="checkbox" name="Are you eligible " checked>
+        <br>
+        Are you eligible ? <input type="checkbox" name="Are you eligible " >
+        <br>
+        <!-- some different input   -->
+        <div>
+            gender: Male <input type="radio" name="my gender"checked> Femail <input type="radio" name="my gender"> others
+            <input type="radio" name="my gender">
+        </div>
+        <br> 
+        <!-- (<select name="" id=""></select>)for offer something -->
+         <!-- <select name="(my choice) remember for backend " id="(this is attachment for lable )"> this place we writr avalable catageries in opction tag like <option value="BMW"></option> </select>  -->
+        <div>
+            <label for="car">jeep</label>
+            <select name="Car" id="car">
+                <option value="Oddy">Oddy</option>
+                <option value="Honda" selected>HondaCity</option>
+                <option value="Honda" selected>Hondacivic</option>
+                <option value="Humdai" selected>Hondacorolla</option>
+                <option value="nisan"></option>
+            
+            </select>
+        </div>
+        <br>
+        <!-- for write textarea box  -->
+        <div>
+            <label for="myself">Write about your self </label>
+            <br><textarea name="Write about your self" id="myself" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            grade: Materic <input type="radio" name="my grade"> intermadate <input type="radio" name="my grade"> others
+            <input type="radio" name="my grade">
+        </div>
+        <!-- for Submett button  -->
+
+        <input type="reset" value="Submet">
+        <!-- for Reset button  -->
+        <input type="reset" value="Reset"> 
+        <!-- for image button  -->
+        <input type="image" src="https://media.istockphoto.com/photos/mother-and-daughter-using-digital-tablet-inside-illuminated-cozy-hut-picture-id1270068977?k=20&m=1270068977&s=612x612&w=0&h=A4ZkrCFwMlW15gNMaFh7o0ftb5BTA-avnHUfyOao7xs=" alt="online">
+        <input type="image" src="image 2x " alt="passboat size">
+        
+
+
+
+
+
+
+    </form>
+
+</html>

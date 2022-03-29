@@ -1,0 +1,9 @@
+p{
+    font-style: unset;color: darkblue;background-color: aqua;border-style: dotted ;
+}
+div{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("https://i.pinimg.com/736x/2d/43/14/2d4314077d355108f942cb7e99ba1c96.jpg");font-style: oblique;border:2pc solid black ;
+}
+span{color: gold;background-color: darkred;border: 2px solid green;}
+

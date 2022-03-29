@@ -1,0 +1,17 @@
+.class_A{
+    color: white;
+    background-color: purple;
+    font-size: large;
+}
+
+.class_A:nth-last-child(3){
+color: red;
+}
+
+.class_A:last-child{
+    color: pink;
+}
+
+ .class_B{
+     color: green;
+ }
